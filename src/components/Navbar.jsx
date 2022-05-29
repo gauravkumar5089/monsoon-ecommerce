@@ -3,12 +3,12 @@ import styled from "styled-components";
 const Container = styled.div`
   display: flex;
   align-items: center;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 `;
 
 const Wrapper = styled.div`
+  /* box-shadow: 0px 10px 5px rgba(255, 0, 0, 0.2); */
   white-space: nowrap;
-  padding: 0.5rem 2rem;
+  padding: 0.75rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -101,7 +101,9 @@ export default function Navbar() {
         <Right>
           <MenuItem>Sign Up</MenuItem>
           <MenuItem>Login</MenuItem>
-          <MenuItem><i class="fa-solid fa-cart-arrow-down"></i></MenuItem>
+          <MenuItem>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+          </MenuItem>
         </Right>
       </Wrapper>
     </Container>

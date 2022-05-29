@@ -9,7 +9,7 @@ export default function Announcement() {
   return (
     <div>
       {!crossed ? (
-        <div className="px-4 row justify-content-between bg-primary text-white fs-6">
+        <div className="px-4 row justify-content-between bg-primary text-white fs-6 mx-0">
           <span className="col">Hurry Up ! 20% off on all products !</span>
           <span
             style={{ cursor: "pointer" }}
